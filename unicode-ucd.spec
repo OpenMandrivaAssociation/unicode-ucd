@@ -8,7 +8,8 @@ URL:            http://www.unicode.org/ucd/
 Source0:        http://www.unicode.org/Public/zipped/%{version}/UCD.zip#/UCD-%{version}.zip
 Source1:        http://www.unicode.org/Public/zipped/%{version}/Unihan.zip#/Unihan-%{version}.zip
 # http://www.unicode.org/terms_of_use.html referenced in ReadMe.txt redirects to:
-Source10:       http://www.unicode.org/copyright.html#/copyright.html
+Source2:       http://www.unicode.org/copyright.html#/copyright.html
+Source3:        http://www.unicode.org/Public/zipped/%{version}/ReadMe.txt
 BuildArch:      noarch
 
 %description
@@ -20,8 +21,9 @@ Unicode algorithms.
 %prep
 %setup -q -c
 grep -q "%{version}" ReadMe.txt || (echo "zip file seems not %{version}" ; exit 1)
-cp %{S:10} copyright.html
+cp %{S:2} copyright.html
 cp %{S:1} Unihan.zip
+cp %{S:3} ReadMe.txt
 
 %build
 # Nothing to do here
