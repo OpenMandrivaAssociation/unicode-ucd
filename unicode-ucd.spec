@@ -5,7 +5,7 @@ Summary:        Unicode Character Database
 Group:          System/Internationalization
 License:        MIT
 URL:            http://www.unicode.org/ucd/
-Source0:        http://www.unicode.org/Public/zipped/%{version}/UCD.zip#/%{name}-%{version}.zip
+Source0:        http://www.unicode.org/Public/zipped/%{version}/UCD.zip#/UCD-%{version}.zip
 Source1:        http://www.unicode.org/Public/zipped/%{version}/Unihan.zip#/Unihan-%{version}.zip
 # http://www.unicode.org/terms_of_use.html referenced in ReadMe.txt redirects to:
 Source10:       http://www.unicode.org/copyright.html#/copyright-%{version}.html
