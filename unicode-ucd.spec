@@ -20,7 +20,7 @@ Unicode algorithms.
 
 %prep
 %setup -q -c
-grep -q "%{version}" ReadMe.txt || (echo "zip file seems not %{version}" ; exit 1)
+#grep -q "%{version}" ReadMe.txt || (echo "zip file seems not %{version}" ; exit 1)
 cp %{S:2} copyright.html
 cp %{S:1} Unihan.zip
 cp %{S:3} ReadMe.txt
