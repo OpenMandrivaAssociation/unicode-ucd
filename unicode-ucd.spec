@@ -34,5 +34,5 @@ cp -ar . %{buildroot}%{_datadir}/unicode/ucd
 
 %files
 %doc ReadMe.txt copyright.html
-%dir %{_datadir}/unicode
-%{_datadir}/unicode/ucd/
+#dir #{_datadir}/unicode
+#{_datadir}/unicode/ucd/
