@@ -1,6 +1,6 @@
 Name:           unicode-ucd
 Version:        13.0.0
-Release:        1
+Release:        2
 Summary:        Unicode Character Database
 Group:          System/Internationalization
 License:        MIT
@@ -23,6 +23,7 @@ Unicode algorithms.
 #grep -q "%{version}" ReadMe.txt || (echo "zip file seems not %{version}" ; exit 1)
 cp %{S:2} copyright.html
 cp %{S:1} Unihan.zip
+cp %{S:1} UCD-%{version}/Unihan.zip
 cp %{S:3} ReadMe.txt
 
 %build
