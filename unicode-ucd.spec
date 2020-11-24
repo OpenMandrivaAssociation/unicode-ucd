@@ -32,7 +32,9 @@ cp %{S:3} ReadMe.txt
 install -d %{buildroot}%{_datadir}/unicode/ucd
 cp -ar . %{buildroot}%{_datadir}/unicode/ucd
 
+ln -s %{_datadir}/unicode/ucd/Unihan.zip %{_datadir}/unicode/ucd/UCD-%{version}/Unihan.zip
+
 %files
 %doc ReadMe.txt copyright.html
-#dir #{_datadir}/unicode
-#{_datadir}/unicode/ucd/
+%dir %{_datadir}/unicode
+%{_datadir}/unicode/ucd/
