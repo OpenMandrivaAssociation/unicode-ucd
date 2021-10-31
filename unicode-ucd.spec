@@ -23,7 +23,7 @@ Unicode algorithms.
 #grep -q "%{version}" ReadMe.txt || (echo "zip file seems not %{version}" ; exit 1)
 cp %{S:2} copyright.html
 cp %{S:1} Unihan.zip
-cp %{S:1} UCD-%{version}/Unihan.zip
+cp %{S:1} UCD/Unihan.zip
 cp %{S:3} ReadMe.txt
 
 %build
