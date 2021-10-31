@@ -1,6 +1,6 @@
 Name:           unicode-ucd
-Version:        13.0.0
-Release:        2
+Version:        14.0.0
+Release:        1
 Summary:        Unicode Character Database
 Group:          System/Internationalization
 License:        MIT
