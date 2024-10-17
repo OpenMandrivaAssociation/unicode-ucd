@@ -3,7 +3,7 @@ Version:        15.1.0
 Release:        1
 Summary:        Unicode Character Database
 License:        Unicode-DFS-2016 AND Unicode-TOU
-URL:            http://www.unicode.org/ucd/
+URL:            https://www.unicode.org/ucd/
 Source0:        http://www.unicode.org/Public/zipped/%{version}/UCD.zip
 Source1:        http://www.unicode.org/Public/zipped/%{version}/Unihan.zip
 Source2:        https://www.unicode.org/license.txt
