@@ -1,5 +1,5 @@
 Name:           unicode-ucd
-Version:        15.1.0
+Version:        16.0.0
 Release:        1
 Summary:        Unicode Character Database
 License:        Unicode-DFS-2016 AND Unicode-TOU
